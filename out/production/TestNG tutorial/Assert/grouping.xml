@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test case group">
+    <test   name="Group functioality">
+<groups>
+    <run>
+        <include name="Sanity"></include>
+        <include name="smoke"></include>
+        <exclude name="Regression"></exclude>
+</run>
+</groups>
+        <classes>
+        <class name="Assert.Testcasegrouping"> </class>
+        </classes>
+    </test>
+</suite>

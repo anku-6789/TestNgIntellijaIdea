@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Multiple suits">
+<suite-files>
+    <suite-file path="listner.xml"></suite-file>
+    <suite-file path="parametr.xml"></suite-file>
+</suite-files>
+
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test cparameter">
+    <test   name="parametrization">
+
+        <parameter name="browser" value="safari"></parameter>
+        <parameter name="userName" value="sdaksj@gmail.com"></parameter>
+        <parameter name="password" value="Test@123"></parameter>
+
+        <classes>
+            <class name="paramertization.testparameters"> </class>
+        </classes>
+    </test>
+</suite>

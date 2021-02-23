@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="data provider with Itest">
+    <test name="Unit test">
+        <classes>
+           <class name="paramertization.dataprovidersource">
+           </class>
+
+        </classes>
+    </test>
+    <test name="scenario">
+         <classes>
+            <class name="paramertization.dataproviderwithitest">
+            </class>
+         </classes>
+    </test>
+
+</suite>

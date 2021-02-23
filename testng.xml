@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bacic learingn of testng">
+    <test   name=" facebook loginn ">
+        <classes>
+            <class name="Anotations.facebooklogin"/>
+        </classes>
+    </test>
+    <test   name=" facebook loginn profile">
+    <classes>
+        <class name="Anotations.facebookloginprofile"/>
+    </classes>
+    </test>
+</suite>
